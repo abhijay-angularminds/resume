@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Gloock&family=IBM+Plex+Mono:ital,wght@1,200&family=Kalam&family=Montserrat:wght@300;500&family=PT+Sans:wght@700&family=Staatliches&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #4cc9f0;
+
+  /* height: 100vh; */
+  /* margin: auto; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* main container of resume  */
+.container {
+  width: 80%;
+  height: 100%;
+  /* max-width: 1000px; */
+  /* min-height: 1000px; */
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  /* grid-template-columns: repeat(auto-fit, minmax(1fr, 2fr)); */
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.container .left_side {
+  position: relative;
+  padding: 40px;
+  background: #03045e;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .right_side {
+  position: relative;
+  background: #fff;
+}
+
+.left_side_text_customization {
+  padding: 20px;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-content {
+  /* display: flex;
+  justify-content: start; */
+  /* background-color: red; */
+}
+
+.mb {
+  margin-bottom: 100px;
+}
+
+figure {
+  position: relative;
+  /* width: 20vw;
+  height: 40vh; */
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  /* border: 10px solid #ff006e; */
+  /* box-shadow: 0px 0px 30px #ff006e; */
+  border-spacing: 20px;
+  /* background-color: grey; */
+  background-image: url("/resources/images/Semi\ Casual\ Photograph\ WB2.png");
+  background-position: center;
+  background-size: contain;
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-color: #ffefefef;
+}
+
+.contact {
+}
+
+.title {
+  position: relative;
+  text-transform: uppercase;
+  /* letter-spacing: 4px; */
+  margin-bottom: 20px;
+  font-weight: 100;
+
+  border-bottom: 1px solid #ff006e;
+}
+
+/* .title::after {
+  content: "";
+  position: relative;
+  width: 100%;
+  display: block;
+  height: 1px;
+  background-color: #ff006e;
+  bottom: -5px;
+} */
+
+.contact ul {
+  position: relative;
+}
+
+.contact ul li {
+  list-style: none;
+  margin: 10px 0px;
+  /* cursor: pointer; */
+}
+
+.contact ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 20px;
+  /* color: #ffd60a; */
+  color: yellow;
+}
+
+.contact ul li span {
+  font-weight: 300;
+}
+
+.education ul li h3 {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.education ul li:nth-child(2) h3 {
+  margin-top: 20px;
+}
+
+.education ul li {
+  list-style: none;
+}
+
+.education ul li h4 {
+  font-weight: 300;
+}
+
+.languages ul li {
+  list-style: none;
+}
+
+.languages ul li .percentage {
+  width: 100%;
+  background-color: #4cc9f0;
+  height: 10px;
+  display: block;
+  margin-top: 2px;
+  position: relative;
+}
+
+.languages ul li .percentage div {
+  background-color: #ff006e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+}
+.languages ul li {
+  margin-top: 10px;
+}
+
+.name_header {
+  display: block;
+  height: 200px;
+  background-color: #ffbe0b;
+  /* border: 2px solid black; */
+  /* position: absolute;
+  left: 0;
+  top: 0; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #000814;
+  text-transform: uppercase;
+}
+
+.name_header > :nth-child(2) {
+  margin-top: 20px;
+}
+.name_header > :nth-child(1) {
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  font-size: 50px;
+}
+
+.right_side_wrapper {
+  /* background-color: red; */
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.right_side_wrapper > * {
+  /* background-color: blue; */
+  color: black;
+}
+
+.rs_cutomize {
+  margin-bottom: 30px;
+}
+
+.profile_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.experienceBox {
+  margin-bottom: 30px;
+}
+.experienceBox p {
+  margin-bottom: 15px;
+}
+
+.experienceBox:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.job_Profile p {
+  color: #848c90;
+  font-weight: 600;
+}
+
+.job_Profile h5 {
+  text-transform: uppercase;
+  color: #848c90;
+  font-weight: 600;
+}
+
+.job_Profile h4 {
+  text-transform: capitalize;
+}
+
+.skill_Container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  gap: 20px;
+}
+
+/* Responsive  */
+/* Media Query  */
+@media only screen and (max-width: 1000px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .skill_Container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .profile_main {
+    flex-direction: column;
+  }
+
+  .job_Profile p {
+    margin-top: 5px;
+  }
+
+  .skill_Container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* For Media Printing */
+@media print {
+  body {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: white !important;
+  }
+
+  figure {
+    height: 220px !important;
+    width: 220px !important;
+  }
+  .name_header {
+    height: 100px !important;
+    padding: 0px !important;
+  }
+
+  .name_header h1,
+  h2 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .name_header h1 {
+    font-size: 30px !important;
+    font-weight: lighter !important;
+  }
+  .name_header h2 {
+    font-size: 20px !important;
+    font-weight: 100 !important;
+  }
+
+  .container .left_side {
+    padding: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .container {
+    width: 100% !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    background-color: aquamarine !important;
+  }
+
+  .skill_Container {
+    display: grid !important;
+    grid-template-columns: repeat(4, auto) !important;
+  }
+
+  .right_side_wrapper {
+    padding: 20px 20px !important;
+  }
+
+  .title {
+    font-size: 22px !important;
+    /* margin-bottom: 10px !important; */
+    margin-bottom: 10px !important;
+  }
+
+  .profile_Text {
+    margin-bottom: 0 !important;
+  }
+}
