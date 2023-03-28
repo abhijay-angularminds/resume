@@ -14,24 +14,15 @@
 
 body {
   background-color: #4cc9f0;
-
-  /* height: 100vh; */
-  /* margin: auto; */
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 /* main container of resume  */
 .container {
   width: 80%;
   height: 100%;
-  /* max-width: 1000px; */
-  /* min-height: 1000px; */
   background-color: #fff;
   display: grid;
   grid-template-columns: 40% 60%;
-  /* grid-template-columns: repeat(auto-fit, minmax(1fr, 2fr)); */
   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
   color: white;
 }
@@ -59,25 +50,17 @@ body {
   align-items: center;
 }
 
-.left-content {
-  /* display: flex;
-  justify-content: start; */
-  /* background-color: red; */
-}
-
 .mb {
   margin-bottom: 100px;
 }
 
 figure {
   position: relative;
-  /* width: 20vw;
-  height: 40vh; */
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  /* border: 10px solid #ff006e; */
-  /* box-shadow: 0px 0px 30px #ff006e; */
+  border: 10px solid #ff006e;
+  box-shadow: 0px 0px 30px #ff006e;
   border-spacing: 20px;
   /* background-color: grey; */
   background-image: url("/resources/images/Semi\ Casual\ Photograph\ WB2.png");
@@ -94,22 +77,11 @@ figure {
 .title {
   position: relative;
   text-transform: uppercase;
-  /* letter-spacing: 4px; */
   margin-bottom: 20px;
   font-weight: 100;
 
   border-bottom: 1px solid #ff006e;
 }
-
-/* .title::after {
-  content: "";
-  position: relative;
-  width: 100%;
-  display: block;
-  height: 1px;
-  background-color: #ff006e;
-  bottom: -5px;
-} */
 
 .contact ul {
   position: relative;
@@ -118,15 +90,13 @@ figure {
 .contact ul li {
   list-style: none;
   margin: 10px 0px;
-  /* cursor: pointer; */
 }
 
 .contact ul li .icon {
   display: inline-block;
   width: 30px;
   font-size: 20px;
-  /* color: #ffd60a; */
-  color: yellow;
+  color: #ffd60a;
 }
 
 .contact ul li span {
@@ -178,10 +148,6 @@ figure {
   display: block;
   height: 200px;
   background-color: #ffbe0b;
-  /* border: 2px solid black; */
-  /* position: absolute;
-  left: 0;
-  top: 0; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -201,17 +167,14 @@ figure {
 }
 
 .right_side_wrapper {
-  /* background-color: red; */
   padding: 40px;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid black; */
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .right_side_wrapper > * {
-  /* background-color: blue; */
   color: black;
 }
 
@@ -342,7 +305,6 @@ figure {
 
   .title {
     font-size: 22px !important;
-    /* margin-bottom: 10px !important; */
     margin-bottom: 10px !important;
   }
 
